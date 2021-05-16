@@ -1,0 +1,29 @@
+body{
+    margin-bottom: auto;
+    padding: auto;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+center{
+    margin-left: 250px;
+    width: 800px;
+   
+    padding: 60px;
+}
+i{
+    height: 38px;
+}
+input{
+    height: 38px;
+}
+form{
+    border: solid 2px black ;
+
+}
+/*form:hover{
+    background-color: rgb(238, 217, 190);
+}
+h1:hover{
+    background-color: rgb(245, 225, 199);
+}*/

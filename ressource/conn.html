@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- ... -->
+</head>
+
+<body>
+<!-- ... -->
+
+<script>
+
+$(document).ready(function(){
+
+    $("#submit").click(function{
+
+        $.post(
+            'traitement/authenti.php', // Un script PHP que l'on va créer juste après
+            {
+                username : $("#username").val(),  // Nous récupérons la valeur de nos inputs que l'on fait passer à connexion.php
+                passwd : $("#password").val()
+            },
+
+            function(data){ // Cette fonction ne fait rien encore, nous la mettrons à jour plus tard
+                $("#connec").html(data);
+            },
+
+            'text' // Nous souhaitons recevoir "Success" ou "Failed", donc on indique text !
+         );
+
+    });
+
+});
+
+</script>
+</body>
+</html>

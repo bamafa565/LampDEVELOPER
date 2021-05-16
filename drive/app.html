@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lamp</title>
+	<link rel="stylesheet" href="bootstrap-4.4.1-dist\css\bootstrap.min.css">
+	<link rel="stylesheet" href="fontawesome-free-5.15.3-web\css\all.css">
+	
+	<link rel="stylesheet" href="DataTables/datatables.css">
+	<script src="jquery/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="DataTables/datatables.js"></script>
+	<script src="bootstrap-4.4.1-dist\js\bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="tap.css">
+</head>
+<style>
+	.left{
+		float: left;
+	}
+	.right{
+		float: right;
+	}
+	
+	#img{
+		width: 226px;
+		height:200px;
+	}
+	.col-sm{
+		border: solid 1px;
+		margin: 5px;
+	}
+	table > *{
+		border:solid 1px;
+	}
+</style>
+<body>
+	<span class="left">SAMA MARCHE</span>
+	<span class="right"><a href="">Deconnexion</a></span>
+<div>
+		<ul class="taps">
+			<li class="active"><a href="#home">PROFIL</a></li>
+			<li><a href="#mentions">MARCHE</a></li>
+			<li><a href="#About">MES PRODUITS</a></li> 
+		</ul>
+	
+	<center>
+<div class="taps-content">
+			<div class="tap-content  active" id="home">
+				<div class="row border  ">
+					<div class="col-3 col-sm-3  img">
+								 <h1>PROFIL</h1>
+								 <p><img src="../OIP.jfif " alt="" id="img"></p>
+							   </div>
+					  <div class="col-6 border border-dark ">
+					   <br>
+					   <div class="row ">
+						   <br>
+						   <label for="">Nom:</label><input type="text" class="form-control">
+					   </div>
+						<br>
+						<br>
+					   <div class="row border border">
+						   <label for="">Prenom:</label><input type="text" class="form-control">
+					   </div>
+					   <br>
+					   <br>
+					   <textarea name="a" id="desc" cols="30" rows="10"></textarea>
+					   <br>
+					   <br>
+					   <button type="submit" class="right">Edit</button>
+					   <br>
+					   <br>
+			   </div>
+
+				   
+ </div>
+<div class="tap-content" id="mentions">
+	<div class="container">
+		<div class="row-3">
+					<div class="col-sm">
+						<img src="../OIP.jfif" alt="" class="img">
+						<br>
+						<a href=""><i class="fas fa-cart-plus left"></i></a>
+						<a href=""><i class="fas fa-info-circle right"></i></a>
+					</div>
+					<div class="col-sm">
+						<img src="../OIP.jfif" alt="" class="img">
+						<br>
+						<a href=""><i class="fas fa-cart-plus left"></i></a>
+						<a href=""><i class="fas fa-info-circle right"></i></a>
+					</div>
+					<div class="col-sm">
+						<img src="../OIP.jfif" alt="" class="img">
+						<br>
+						<a href=""><i class="fas fa-cart-plus left"></i></a>
+						<a href=""><i class="fas fa-info-circle right"></i></a>
+					</div>
+					<div class="col-sm">
+						<img src="../OIP.jfif" alt="" class="img">
+						<br>
+						<a href=""><i class="fas fa-cart-plus left"></i></a>
+						<a href=""><i class="fas fa-info-circle right"></i></a>
+					</div>
+   </div>
+   </div>
+	   <div class="row">
+						<div class="col-sm">
+							<img src="../OIP.jfif" alt="" class="img">
+							<br>
+							<a href=""><i class="fas fa-cart-plus left"></i></a> 
+							<a href=""><i class="fas fa-info-circle right"></i></a>
+						</div>
+						<div class="col-sm">
+							<img src="../OIP.jfif" alt="" class="img">
+							<br>
+								<a href=""><i class="fas fa-cart-plus left"></i></a>
+								<a href=""><i class="fas fa-info-circle right"></i></a>
+						</div>
+						<div class="col-sm">
+							<img src="../OIP.jfif" alt="" class="img">
+							<br>
+								<a href=""><i class="fas fa-cart-plus left"></i></a>
+								<a href=""><i class="fas fa-info-circle right"></i></a>
+						</div>
+						<div class="col-sm">
+							<img src="../OIP.jfif" alt="" class="img">
+							<br>
+								<a href=""><i class="fas fa-cart-plus left"></i></a>
+								<a href=""><i class="fas fa-info-circle right"></i></a>
+						</div>
+	   </div>
+</div>
+</div>
+<div class="tap-content" id="About">
+	<table id="table_id" class="display">
+	    <thead>
+	        <tr>
+	            <th>Column 1</th>
+	            <th>Column 2</th>
+	        </tr>
+	    </thead>
+	    <tbody>
+	        <tr>
+	            <td>Row 1 Data 1</td>
+	            <td>Row 1 Data 2</td>
+	        </tr>
+	        <tr>
+	            <td>Row 2 Data 1</td>
+	            <td>Row 2 Data 2</td>
+	        </tr>
+	        <tr>
+	            <td>Row 1 Data 1</td>
+	            <td>Row 1 Data 2</td>
+	        </tr>
+			<tr>
+	            <td>Row 1 Data 1</td>
+	            <td>Row 1 Data 2</td>
+	        </tr>
+	        <tr>
+	            <td>Row 2 Data 1</td>
+	            <td>Row 2 Data 2</td>
+	        </tr>
+	        <tr>
+	            <td>Row 1 Data 1</td>
+	            <td>Row 1 Data 2</td>
+	        </tr>
+			<tr>
+	            <td>Row 1 Data 1</td>
+	            <td>Row 1 Data 2</td>
+	        </tr>
+	        <tr>
+	            <td>Row 2 Data 1</td>
+	            <td>Row 2 Data 2</td>
+	        </tr>
+	        <tr>
+	            <td>Row 1 Data 1</td>
+	            <td>Row 1 Data 2</td>
+	        </tr>
+			<tr>
+	            <td>Row 1 Data 1</td>
+	            <td>Row 1 Data 2</td>
+	        </tr>
+	        <tr>
+	            <td>Row 2 Data 1</td>
+	            <td>Row 2 Data 2</td>
+	        </tr>
+	        <tr>
+	            <td>Row 1 Data 1</td>
+	            <td>Row 1 Data 2</td>
+	        </tr>
+			    
+	    </tbody>
+	</table>
+	
+</div>
+		
+		</div>
+			
+	</center>
+
+<script type="text/javascript" src="tap.js"></script>
+<script>
+	$(document).ready(function () {
+		$('#table_id').DataTable();
+	} );
+</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<?php 
+$reference= $_POST['a'];
+$nom = $_POST['b'];
+$quantite = $_POST['c'];
+$prix=$_POST['f'];
+$description = $_POST['d'];
+$date_ajout= $_POST['e'];
+$date_modifi=$_POST['g'];
+ require "connetion_db.php";
+ if(isset( $_POST['a'])&& isset($_POST['b'])&& isset($_POST['c'])&&isset($_POST['f'])&&isset($_POST['d'])&& isset($_POST['e'])&& isset($_POST['g'])){
+ $req = $mb->prepare("INSERT INTO produit(id_produit,lib_produi,quantite,prix,
+ description,date_ajout,date_modifi)
+  VALUES(:id_produit, :lib_produi,
+  :quantite,:prix, :description,
+   :date_ajout, :date_modifi)");
+  $req->execute(array('id_produit'=>$reference,
+  'lib_produi'=>$nom,
+  'quantite'=>$quantite,
+  'prix'=>$prix,
+  'description'=>$description,
+  'date_ajout'=>$date_ajout,
+  'date_modifi'=>$date_modifi));
+  if($req==true){
+      echo"bismillah";
+    header("Location:index.php");
+  }else{
+    echo"aucun ajout effectuer";
+  }
+}else{
+  header("Location:produit.php");
+}
+
+
+
+
+
+?>

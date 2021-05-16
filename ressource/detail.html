@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web\css\all.css">
+    <script src="bootstrap-4.4.1-dist\js\bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<style>
+  #tet{
+  height: 150px;
+    width:  200px;
+    border-radius:50%;
+}
+</style>
+<body>
+ <!-- Button trigger modal -->
+
+  <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fas fa-info-circle right"></i></a>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="falsr">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">INFORMATION  PRODUIT</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div>
+              <img src="img/3.jfif" alt="">
+            </div>
+            <div class="col-md-4">
+              <label for="">nom</label>
+              <input type="text" class="form-control">
+            </div>
+            <label for="">Prenom</label>
+            <input type="text" class="form-control">
+          </div>
+          <label for="">description</label>
+            <textarea name="descr" id="descr" cols="30" rows="10"></textarea>
+        </div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

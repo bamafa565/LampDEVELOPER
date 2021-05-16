@@ -1,0 +1,31 @@
+body{
+    background-color: rgba(255, 255, 255, 0.815);
+        text-align: center;
+        padding: 10px;
+    
+    }
+    #header{
+        background-image:url('img/1.jpg');
+        padding: 50px;
+    }
+    aside{
+        border: 1px solid none;
+        background-color: rgb(255, 246, 246);
+    }
+
+    table{
+    
+        height: 400px;
+        width: 640px;
+        margin-left:300px;
+        margin-right:300px;
+        background-color: rgb(186, 235, 228);
+        padding:30px;
+    }
+    #ab{
+    display:grid;
+    grid-row: 20% 20% 60% ;
+    
+        height: 150px;
+        width:150px;
+    }

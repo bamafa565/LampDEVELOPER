@@ -1,0 +1,58 @@
+.tap-content{
+	display: none;
+}
+.tap-content.active{
+	display: block;
+}
+.taps .active a{
+	color:red;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+body{
+	background-color: #EEE;
+	font-family: sans-serif;
+	padding: 50px;
+}
+ul,li{
+	margin:0px;
+	padding: 0px;
+	list-style: none;
+}
+.taps li{
+	float: left;
+	display: block;
+	-moz-animation:;
+}
+.taps a{
+	display: inline-block;
+	background-color:#EEE;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.24);
+	padding: 10px;
+}
+.taps .active a{
+	background-color: #fff;
+}
+.taps:after{
+	display: table;
+	content:' ';
+	clear: both;
+}
+.tap-content{
+	position:relative;
+	z-index: 3;
+	padding: 20px;
+	background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.24);
+    margin-bottom:20px;
+}
+ul>li{
+	align-items: flex-end;
+	justify-items: start;
+}
+.img{
+	width: 100px;
+	margin:20px ;
+}

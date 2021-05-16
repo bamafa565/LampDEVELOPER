@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web\css\all.css">
+    <script src="bootstrap-4.4.1-dist\js\bootstrap.min.js"></script>
+    <link rel="stylesheet" media="screen" type="text/css" title="Menu" href="ins.css" />
+    <script language="javascript" src="login.js" type="text/javascript"></script>
+    </head>
+    <style>
+      body{
+     background-color:   #b4bad2;
+      }
+   img{
+       height: 40px;
+       width:  40px;
+   }
+   a{
+     color: none;
+     text-decoration: none;
+   }
+   a:hover, a:focus {
+     color: #c94e50;
+     outline: none;
+   }
+   
+   input:focus {
+     outline: none;
+     height: 35px;
+   }
+   
+   </style> 
+    <body>
+    <center>
+      <div class="codrops-links">
+        <a class="codrops-icon codrops-icon-prev    y" href="acceuil.html"><span>Login</span></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="codrops-icon codrops-icon-drop    x" href="inscription.html"><span>Register</span></a>
+        <br>
+      </div>
+        <div id="error"></div>
+         
+        <div id="form" class=>
+        <form id="form_userlogin" action="traitement/authenti.php" method="post" onsubmit="return login()";> 
+            <table class="p-4" >   
+                    <tr>
+                      <br>
+                      <br>
+                      <span><strong><h1> AUTHENTIFICATION</h1></strong></span>
+                      
+                      <hr>
+                               <td><label for="user_login">Login :</label>  <br></td>
+                        
+                          <td><span class="mandatory_star"><i class="fa fa-user" aria-hidden="true"></i>*</span></td>
+                          <td><input id="user_login" class="form-control" name="a" type="text"  value=""/></td>
+                    </tr>
+                    <tr>
+                            <td><label for="user_password">Password :</label> <br></td>
+                           
+                            <td><span class="mandatory_star"><i class="fa fa-key" aria-hidden="true"></i>*</span></td>
+                            <td><input id="user_password" class="form-control" name="b" type="password"  value=""/></td>
+                    </tr>
+                     <br>
+                    <tr>
+                    <td> 
+                      <br>    <br>    <br>    <br>    <br>
+                    </td>
+                    <td> 
+                      <br>
+                      <br>
+                    </td>
+                    <td><input id="button_userlogi" class="btn btn-warning  form-control-y"  name="button_userlog" type="submit" value="annuler"/>
+                    </td>
+                    <td><input id="button_userlogin" class="btn btn-primary  form-control-x"  name="button_userlo" type="submit" value="connexion"/>
+                    </td>
+                         
+                    <br>
+                    <br>
+                    </tr>
+                    
+            </table> 
+            <br>
+            <br>
+             
+        </form>
+    </div>
+  </center>
+    </body>
+</html>

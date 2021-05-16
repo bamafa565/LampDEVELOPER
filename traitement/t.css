@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    background-color:none;
+    size:cover;
+    
+}
+
+
+h1{
+
+    background-color: rgb(255, 255, 255,0.55);
+    padding: 20px;
+  
+}
+.container{
+    background-color:  rgba(251, 251, 251, 0.966);
+    margin-top:0px;
+     /* margin-left: 295px;
+    margin-right: 295px; */
+    
+    
+
+}
+/* #ab{
+    direction:grid;
+    grid-row: 20% 20% 60% ;
+    /* height: 150px;
+    width:150px; */
